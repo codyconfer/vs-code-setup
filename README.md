@@ -29,3 +29,13 @@ Prettier - Code formatter <https://marketplace.visualstudio.com/items?itemName=e
 
 C# <https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp>
 C# Extensions <https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions>
+
+## javascript
+
+ESLint <https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint>
+npm Intellisense <https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense>
+Document This <https://marketplace.visualstudio.com/items?itemName=joelday.docthis>
+Node.js Modules Intellisense <https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense>
+Gulp Tasks <https://marketplace.visualstudio.com/items?itemName=nickdodd79.gulptasks>
+npm script integration <https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script>
+TSLint <https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin>
