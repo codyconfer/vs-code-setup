@@ -45,3 +45,12 @@ TSLint <https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typ
 Vetur <https://marketplace.visualstudio.com/items?itemName=octref.vetur>
 Vue Peek <https://marketplace.visualstudio.com/items?itemName=dariofuzinato.vue-peek>
 Vue.js Extension Pack <https://marketplace.visualstudio.com/items?itemName=mubaidr.vuejs-extension-pack>
+
+## themes
+
+Cobalt2 Theme Official <https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2>
+Dark Candy <https://marketplace.visualstudio.com/items?itemName=erik-rosengren.dark-candy>
+Material Theme Kit <https://marketplace.visualstudio.com/items?itemName=ms-vscode.Theme-MaterialKit>
+Markdown Theme Kit <https://marketplace.visualstudio.com/items?itemName=ms-vscode.Theme-MarkdownKit>
+Material Icon Theme <https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme>
+vscode-icons <https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons> 
