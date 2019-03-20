@@ -24,3 +24,8 @@ markdownlint <https://marketplace.visualstudio.com/items?itemName=DavidAnson.vsc
 Auto Close Tag <https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag>
 Auto Rename Tag <https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag>
 Prettier - Code formatter <https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode>
+
+## csharp
+
+C# <https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp>
+C# Extensions <https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions>
