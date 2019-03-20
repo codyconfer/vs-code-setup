@@ -39,3 +39,9 @@ Node.js Modules Intellisense <https://marketplace.visualstudio.com/items?itemNam
 Gulp Tasks <https://marketplace.visualstudio.com/items?itemName=nickdodd79.gulptasks>
 npm script integration <https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script>
 TSLint <https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin>
+
+## vue
+
+Vetur <https://marketplace.visualstudio.com/items?itemName=octref.vetur>
+Vue Peek <https://marketplace.visualstudio.com/items?itemName=dariofuzinato.vue-peek>
+Vue.js Extension Pack <https://marketplace.visualstudio.com/items?itemName=mubaidr.vuejs-extension-pack>
