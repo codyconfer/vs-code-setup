@@ -1,0 +1,1 @@
+code --install-extension jchannon.csharpextensions --install-extension ms-vscode.csharp
