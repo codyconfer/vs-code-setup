@@ -170,5 +170,6 @@
   "bracketPairColorizer.showHorizontalScopeLine": true,
   "bracketPairColorizer.showVerticalScopeLine": true,
   "bracketPairColorizer.timeOut": 200,
-  "html-css-class-completion.enableEmmetSupport": true
+  "html-css-class-completion.enableEmmetSupport": true,
+  "prettier.tabWidth": 2
 }
