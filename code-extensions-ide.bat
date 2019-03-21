@@ -1,1 +1,5 @@
+@echo off
+
+echo [IDE] - Installing IDE enhancement extensions...
 code --install-extension eamodio.gitlens --install-extension ms-vscode.PowerShell --install-extension ms-vscode.vs-keybindings --install-extension ms-vsliveshare.vsliveshare --install-extension ms-vsts.team --install-extension msjsdiag.debugger-for-chrome --install-extension CoenraadS.bracket-pair-colorizer --install-extension naumovs.color-highlight --install-extension oderwat.indent-rainbow --install-extension quicktype.quicktype --install-extension spywhere.guides --install-extension bierner.markdown-preview-github-styles --install-extension christian-kohler.path-intellisense --install-extension streetsidesoftware.code-spell-checker --install-extension Zignd.html-css-class-completion --install-extension yzhang.markdown-all-in-one --install-extension DavidAnson.vscode-markdownlint --install-extension formulahendry.auto-close-tag --install-extension formulahendry.auto-rename-tag --install-extension esbenp.prettier-vscode
+goto :eof
