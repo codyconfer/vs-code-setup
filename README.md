@@ -6,37 +6,48 @@
 
 > Extensions that act as general IDE enhancements for a web development environment on Windows.
 
-| Name                                     | Marketplace Link                                                                             |
-| ---------------------------------------- | -------------------------------------------------------------------------------------------- |
-| Git Lens                                 | <https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens>                        |
-| PowerShell                               | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell>                   |
-| Visual Studio Keymap                     | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.vs-keybindings>               |
-| VS Live Share                            | <https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare>             |
-| Azure Repos                              | <https://marketplace.visualstudio.com/items?itemName=ms-vsts.team>                           |
-| Debugger for Chrome                      | <https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome>           |
-| Bracket Pair Colorizer                   | <https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer>       |
-| Color Highlight                          | <https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight>                |
-| indent-rainbow                           | <https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow>                 |
-| Paste JSON as Code                       | <https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype>                    |
-| Guides                                   | <https://marketplace.visualstudio.com/items?itemName=spywhere.guides>                        |
-| Markdown Preview Github Styling          | <https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles> |
-| Path Intellisense                        | <https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense>     |
-| Code Spell Checker                       | <https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker>  |
-| IntelliSense for CSS class names in HTML | <https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion>        |
-| Markdown All in One                      | <https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one>             |
-| markdownlint                             | <https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint>         |
-| Auto Close Tag                           | <https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag>           |
-| Auto Rename Tag                          | <https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag>          |
-| Prettier - Code formatter                | <https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode>                 |
+| Name                                     | Marketplace Link                                                                              |
+| ---------------------------------------- | --------------------------------------------------------------------------------------------- |
+| Git Lens                                 | <https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens>                         |
+| PowerShell                               | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell>                    |
+| Visual Studio Keymap                     | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.vs-keybindings>                |
+| VS Live Share                            | <https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare>              |
+| Azure Repos                              | <https://marketplace.visualstudio.com/items?itemName=ms-vsts.team>                            |
+| Debugger for Chrome                      | <https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome>            |
+| Bracket Pair Colorizer                   | <https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer>        |
+| Color Highlight                          | <https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight>                 |
+| indent-rainbow                           | <https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow>                  |
+| Paste JSON as Code                       | <https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype>                     |
+| Guides                                   | <https://marketplace.visualstudio.com/items?itemName=spywhere.guides>                         |
+| Markdown Preview Github Styling          | <https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles>  |
+| Path Intellisense                        | <https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense>      |
+| Code Spell Checker                       | <https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker>   |
+| IntelliSense for CSS class names in HTML | <https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion>         |
+| Markdown All in One                      | <https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one>              |
+| markdownlint                             | <https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint>          |
+| Auto Close Tag                           | <https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag>            |
+| Auto Rename Tag                          | <https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag>           |
+| Prettier - Code formatter                | <https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode>                  |
+| Code Runner                              | <https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner>               |
+| Terminal                                 | <https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal>                  |
+| Auto Complete Tag                        | <https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag>         |
+| Better Comments                          | <https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments>              |
+| Quick and Simple Text Selection          | <https://marketplace.visualstudio.com/items?itemName=dbankier.vscode-quick-select>            |
+| Highlight Trailing White Spaces          | <https://marketplace.visualstudio.com/items?itemName=ybaumes.highlight-trailing-white-spaces> |
 
 ## csharp
 
 > Extensions that provide syntax highlighting and tooling around c#
 
-| Name          | Marketplace Link                                                                |
-| ------------- | ------------------------------------------------------------------------------- |
-| C#            | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp>          |
-| C# Extensions | <https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions> |
+| Name                          | Marketplace Link                                                                           |
+| ----------------------------- | ------------------------------------------------------------------------------------------ |
+| C#                            | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp>                     |
+| C# Extensions                 | <https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions>            |
+| C# XML Documentation Comments | <https://marketplace.visualstudio.com/items?itemName=k--kato.docomment>                    |
+| Razor+                        | <https://marketplace.visualstudio.com/items?itemName=austincummings.razor-plus>            |
+| .NET Core Tools               | <https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet>                 |
+| .NET Core Test Explorer       | <https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet-test-explorer>   |
+| Azure Storage Explorer        | <https://marketplace.visualstudio.com/items?itemName=formulahendry.azure-storage-explorer> |
 
 ## javascript
 
@@ -66,16 +77,18 @@
 
 > Theme and icon pack extensions
 
-| Name                   | Marketplace Link                                                                   |
-| ---------------------- | ---------------------------------------------------------------------------------- |
-| Cobalt2 Theme Official | <https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2>         |
-| Dark Candy             | <https://marketplace.visualstudio.com/items?itemName=erik-rosengren.dark-candy>    |
-| Material Theme Kit     | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.Theme-MaterialKit>  |
-| Markdown Theme Kit     | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.Theme-MarkdownKit>  |
-| Material Icon Theme    | <https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme>    |
-| vscode-icons           | <https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons> |
-
-
+| Name                     | Marketplace Link                                                                       |
+| ------------------------ | -------------------------------------------------------------------------------------- |
+| Cobalt2 Theme Official   | <https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2>             |
+| Dark Candy               | <https://marketplace.visualstudio.com/items?itemName=erik-rosengren.dark-candy>        |
+| Material Theme Kit       | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.Theme-MaterialKit>      |
+| Markdown Theme Kit       | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.Theme-MarkdownKit>      |
+| Material Icon Theme      | <https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme>        |
+| vscode-icons             | <https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons>   |
+| Linux Themes for VS Code | <https://marketplace.visualstudio.com/items?itemName=SolarLiner.linux-themes>          |
+| Ayu                      | <https://marketplace.visualstudio.com/items?itemName=teabyii.ayu>                      |
+| file-icons               | <https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons>            |
+| Ubuntu Style Theme       | <https://marketplace.visualstudio.com/items?itemName=formulahendry.theme-ubuntu-style> |
 
 ## settings.json
 
