@@ -1,6 +1,5 @@
 {
-  "workbench.colorTheme": "Cobalt2",
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Adapta Nokto",
   "workbench.activityBar.visible": true,
   "workbench.commandPalette.history": 50,
   "workbench.commandPalette.preserveInput": false,
@@ -110,32 +109,15 @@
   "files.autoSave": "onFocusChange",
   "team.showWelcomeMessage": false,
   "material-icon-theme.showWelcomeMessage": false,
-  "vsicons.projectDetection.disableDetect": true,
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
   },
   "indentRainbow.colors": [
-    "rgba(100, 60, 100, 0.2)",
-    "rgba(10, 100, 60, 0.2)",
-    "rgba(120, 90, 20, 0.4)",
-    "rgba(120, 90, 120, 0.3)",
-    "rgba(20, 120, 90, 0.3)",
-    "rgba(120, 90, 20, 0.6)",
-    "rgba(150, 90, 150, 0.4)",
-    "rgba(30, 150, 120, 0.4)",
-    "rgba(150, 90, 30, 0.7)",
-    "rgba(180, 50, 180, 0.5)",
-    "rgba(50, 180, 150, 0.5)",
-    "rgba(180, 150, 30, 0.8)",
-    "rgba(255, 255, 0, 0.8)",
-    "rgba(255, 132, 0, 0.9)",
-    "rgba(255, 0, 0, 1.0)",
-    "rgba(255, 255, 0, 1.0)",
-    "rgba(255, 0, 0, 1.0)",
-    "rgba(255, 255, 0, 1.0)",
-    "rgba(255, 0, 0, 1.0)",
-    "rgba(255, 255, 0, 1.0)",
-    "rgba(255, 0, 0, 1.0)"
+    "rgba(194,145,211,0.1)",
+    "rgba(195,232,141,0.1)",
+    "rgba(97,208,255,0.1)",
+    "rgba(247,140,108,0.1)",
+    "rgba(255,191,85, 0.1)"
   ],
   "bracketPairColorizer.activeScopeCSS": [
     "borderStyle : solid",
@@ -153,10 +135,11 @@
     "[]",
     "{}",
     [
-      "rgba(255, 198, 0, 1)",
-      "rgba(102, 255, 153, 1)",
-      "rgba(251, 148, 255, 1)",
-      "rgba(42, 255, 223, 1)"
+      "rgba(194,145,211,1.0)",
+      "rgba(195,232,141,1.0)",
+      "rgba(97,208,255,1.0)",
+      "rgba(247,140,108,1.0)",
+      "rgba(255,191,85, 1.0)"
     ],
     "rgba(255, 255, 255, 1)"
   ],
@@ -171,5 +154,6 @@
   "bracketPairColorizer.showVerticalScopeLine": true,
   "bracketPairColorizer.timeOut": 200,
   "html-css-class-completion.enableEmmetSupport": true,
-  "prettier.tabWidth": 2
+  "prettier.tabWidth": 2,
+  "workbench.iconTheme": "ayu"
 }
