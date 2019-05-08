@@ -3,23 +3,23 @@
 set codeUser=codyconfer
 
 call:WELCOME
-set /p optionIde=[IDE] Install general extensions for web development in a windows environment? (y or n): 
+set /p optionIde=[IDE] Install general extensions for web development in a windows environment? (y or n):
 if "%optionIde%"=="y" call:IDE
 if "%optionIde%"=="Y" call:IDE
 call:SPACER
-set /p optionCs=[CS] Install extensions for csharp development? (y or n): 
+set /p optionCs=[CS] Install extensions for csharp development? (y or n):
 if "%optionCs%"=="y" call:CS
 if "%optionCs%"=="Y" call:CS
 call:SPACER
-set /p optionJs=[JS] Install extensions for javascript development? (y or n): 
+set /p optionJs=[JS] Install extensions for javascript development? (y or n):
 if "%optionJs%"=="y" call:JS
 if "%optionJs%"=="Y" call:JS
 call:SPACER
-set /p optionVue=[VUE] Install extensions for vue development? (y or n): 
+set /p optionVue=[VUE] Install extensions for vue development? (y or n):
 if "%optionVue%"=="y" call:VUE
 if "%optionVue%"=="Y" call:VUE
 call:SPACER
-set /p optionTheme=[THEMES] Install theme and icon extensions? (y or n): 
+set /p optionTheme=[THEMES] Install theme and icon extensions? (y or n):
 if "%optionTheme%"=="y" call:THEMES
 if "%optionTheme%"=="Y" call:THEMES
 goto EXIT
