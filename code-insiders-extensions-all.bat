@@ -27,23 +27,23 @@ goto EXIT
 :USER
 
 :IDE
-if exist .\code-extensions-ide.bat call code-extensions-ide.bat
+if exist .\code-insiders-extensions-ide.bat call code-insiders-extensions-ide.bat
 goto :eof
 
 :CS
-if exist .\code-extensions-cs.bat call code-extensions-cs.bat
+if exist .\code-insiders-extensions-cs.bat call code-insiders-extensions-cs.bat
 goto :eof
 
 :JS
-if exist .\code-extensions-js.bat call code-extensions-js.bat
+if exist .\code-insiders-extensions-js.bat call code-insiders-extensions-js.bat
 goto :eof
 
 :VUE
-if exist .\code-extensions-vue.bat call code-extensions-vue.bat
+if exist .\code-insiders-extensions-vue.bat call code-insiders-extensions-vue.bat
 goto :eof
 
 :THEMES
-if exist .\code-extensions-themes.bat call code-extensions-themes.bat
+if exist .\code-insiders-extensions-themes.bat call code-insiders-extensions-themes.bat
 goto :eof
 
 :SPACER
