@@ -92,8 +92,12 @@
     "**/CVS": true,
     "**/.DS_Store": true,
     "**/*.css": true,
-    "**/*.js": { "when": "$(basename).ts" },
-    "**/*.js.map": { "when": "$(basename)" },
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/*.js.map": {
+      "when": "$(basename)"
+    },
     ".vs": true,
     ".vscode": true,
     "_test-output": true,
@@ -155,5 +159,37 @@
   "bracketPairColorizer.timeOut": 200,
   "html-css-class-completion.enableEmmetSupport": true,
   "prettier.tabWidth": 2,
-  "workbench.iconTheme": "ayu"
+  "workbench.iconTheme": "ayu",
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "rgba(194,145,211,1.0)",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "?",
+      "color": "rgba(195,232,141,1.0)",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "//",
+      "color": "rgba(97,208,255,1.0)",
+      "strikethrough": true,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "todo",
+      "color": "rgba(247,140,108,1.0)",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "*",
+      "color": "rgba(255,191,85, 1.0)",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    }
+  ]
 }
