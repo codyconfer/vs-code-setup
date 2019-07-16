@@ -336,6 +336,7 @@ Below you will find a list of extensions with their respective marketplace links
   },
   "editor.showFoldingControls": "mouseover",
   "editor.smoothScrolling": false,
+  "editor.tabSize": 2,
   "scm.diffDecorations": "all",
   "scm.diffDecorationsGutterWidth": 2,
   "terminal.integrated.confirmOnExit": false,
@@ -383,6 +384,7 @@ Below you will find a list of extensions with their respective marketplace links
   "team.showWelcomeMessage": false,
   "material-icon-theme.showWelcomeMessage": false,
   "gitlens.advanced.messages": {
+    "suppressLineUncommittedWarning": true,
     "suppressShowKeyBindingsNotice": true
   },
   "indentRainbow.colors": [
@@ -460,6 +462,23 @@ Below you will find a list of extensions with their respective marketplace links
       "strikethrough": false,
       "backgroundColor": "transparent"
     }
-  ]
+  ],
+  "peacock.favoriteColors": [
+    { "name": "Visual Studio Purple", "value": "#5c2d91" },
+    { "name": "Visual Studio Orange", "value": "#d97634" },
+    { "name": "VS Code Blue", "value": "#007acc" },
+    { "name": "Insiders Green", "value": "#2eb261" },
+    { "name": "HTML Blue", "value": "#0095D7" },
+    { "name": "C++ Purple", "value": "#9B4F96" },
+    { "name": "C# Green", "value": "#388A34" },
+    { "name": "CSS Red", "value": "#BD1E2D" },
+    { "name": "F# Purple", "value": "#672878" },
+    { "name": "JavaScript Orange", "value": "#F16421" },
+    { "name": "VB Blue", "value": "#00539C" },
+    { "name": "TypeScript Orange", "value": "#E04C06" },
+    { "name": "Python Green", "value": "#879636" }
+  ],
+  "peacock.affectTitleBar": false
 }
+
 ```
