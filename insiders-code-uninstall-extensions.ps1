@@ -4,13 +4,13 @@ function Welcome {
     Write-Host "* Visual Studio Code Insiders extension installer                              *"
     Write-Host "* Uninstalls extensions used by $codeUser                                      *"
     Write-Host "********************************************************************************"
-    Write-Host ""   
+    Write-Host ""
 }
 
 function Spacer {
-    echo ""
-    echo "********************************************************************************"
-    echo ""
+    Write-Host ""
+    Write-Host "********************************************************************************"
+    Write-Host ""
 }
 
 function General {
@@ -29,14 +29,15 @@ function General {
     code-insiders --uninstall-extension "formulahendry.auto-complete-tag"
     code-insiders --uninstall-extension "aaron-bond.better-comments"
     code-insiders --uninstall-extension "dbankier.vscode-quick-select"
-    code-insiders --uninstall-extension "ybaumes.highlight-trailing-white-spaces"
     code-insiders --uninstall-extension "gruntfuggly.todo-tree"
     code-insiders --uninstall-extension "anseki.vscode-color"
     code-insiders --uninstall-extension "shan.code-settings-sync"
+    code-insiders --uninstall-extension "humao.rest-client"
+    code-insiders --uninstall-extension "hbenl.vscode-test-explorer"
     Spacer
 }
 
-function Key-Binding {
+function KeyBinding {
     Write-Host "[KEYBINDING] - Uninstalling keybinding extensions..."
     code-insiders --uninstall-extension "ms-vscode.vs-keybindings"
     code-insiders --uninstall-extension "ms-vscode.sublime-keybindings"
@@ -55,18 +56,18 @@ function Markdown {
     Spacer
 }
 
-function C-Sharp {
+function CSharp {
     Write-Host "[CS] - Uninstalling csharp extensions..."
     code-insiders --uninstall-extension "jchannon.csharpextensions"
     code-insiders --uninstall-extension "ms-vscode.csharp"
     code-insiders --uninstall-extension "k--kato.docomment"
     code-insiders --uninstall-extension "austincummings.razor-plus"
     code-insiders --uninstall-extension "formulahendry.dotnet"
-    code-insiders --uninstall-extension "formulahendry.dotnet-test-explorer"
+    code-insiders --uninstall-extension "wghats.vscode-nxunit-test-adapter"
     Spacer
 }
 
-function C-Plus-Plus {
+function CPlusPlus {
     Write-Host "[CPP] - Uninstalling c/c++ extensions..."
     code-insiders --uninstall-extension "ms-vscode.cpptools"
     Spacer
@@ -100,7 +101,7 @@ function Flutter {
     Spacer
 }
 
-function Powershell{
+function Powershell {
     Write-Host "[POWERSHELL] - Uninstalling powershell extensions..."
     code-insiders --uninstall-extension "ms-vscode.PowerShell"
     Spacer
@@ -108,7 +109,6 @@ function Powershell{
 
 function Js {
     Write-Host "[JS] - Uninstalling javascript and web extensions..."
-    code-insiders --uninstall-extension "humao.rest-client"
     code-insiders --uninstall-extension "dbaeumer.vscode-eslint"
     code-insiders --uninstall-extension "christian-kohler.npm-intellisense"
     code-insiders --uninstall-extension "joelday.docthis"
@@ -122,6 +122,8 @@ function Js {
     code-insiders --uninstall-extension "msjsdiag.debugger-for-chrome"
     code-insiders --uninstall-extension "ritwickdey.liveserver"
     code-insiders --uninstall-extension "Zignd.html-css-class-completion"
+    code-insiders --uninstall-extension "hbenl.vscode-mocha-test-adapter"
+    code-insiders --uninstall-extension "rtbenfield.vscode-jest-test-adapter"
     Spacer
 }
 
@@ -163,7 +165,7 @@ function Iot {
     Spacer
 }
 
-function Containers{
+function Containers {
     Write-Host "[CONTAINERS] - Uninstalling docker/kubernetes extensions..."
     code-insiders --uninstall-extension "redhat.vscode-yaml"
     code-insiders --uninstall-extension "ms-kubernetes-tools.vscode-kubernetes-tools"
@@ -171,21 +173,18 @@ function Containers{
     Spacer
 }
 
-function Azure{
+function Azure {
     Write-Host "[AZURE] - Uninstalling azure extensions..."
     code-insiders --uninstall-extension "ms-vscode.vscode-node-azure-pack"
     code-insiders --uninstall-extension "ms-toolsai.vscode-ai"
     code-insiders --uninstall-extension "ms-azuretools.vscode-azureterraform"
     code-insiders --uninstall-extension "VisualStudioOnlineApplicationInsights.application-insights"
     code-insiders --uninstall-extension "ms-azuretools.vscode-azureeventgrid"
-    code-insiders --uninstall-extension "AzBlockchain.azure-blockchain"
-    code-insiders --uninstall-extension "formulahendry.azure-storage-explorer"
-    code-insiders --uninstall-extension "JuanBlanco.solidity"
     code-insiders --uninstall-extension "ms-vscode.azure-account"
     Spacer
 }
 
-function Devops{
+function Devops {
     Write-Host "[DEVOPS] - Uninstalling azure devops extensions..."
     code-insiders --uninstall-extension "ms-azure-devops.azure-pipelines"
     code-insiders --uninstall-extension "ms-vsts.team"
@@ -195,15 +194,16 @@ function Devops{
 function Git {
     Write-Host "[GIT] - Uninstalling git extensions..."
     code-insiders --uninstall-extension "eamodio.gitlens"
+    code-insiders --uninstall-extension "GitHub.vscode-pull-request-github"
     Spacer
 }
 
 function Team {
     Write-Host "[TEAM] - Uninstalling team collaboration and chat extensions..."
-    code-insiders --uninstall-extension "karigari.chat"
-    code-insiders --uninstall-extension "ms-vsliveshare.vsliveshare-audio"
     code-insiders --uninstall-extension "ms-vsliveshare.vsliveshare-pack"
-    code-insiders --uninstall-extension "ms-vsliveshare.vsliveshare"
+    code-insiders --uninstall-extension "icrawl.discord-vscode"
+    code-insiders --uninstall-extension "CodeStream.codestream"
+    code-insiders --uninstall-extension "hbenl.vscode-test-explorer-liveshare"
     Spacer
 }
 
@@ -230,7 +230,7 @@ function List {
 
 Welcome -codeUser codyconfer
 General
-Key-Binding
+KeyBinding
 Markdown
 Sql
 Iot
@@ -239,14 +239,14 @@ Git
 Devops
 Team
 Themes
-C-Sharp
+CSharp
 Java
 Node
 Vue
 Angular
 Js
 Python
-C-Plus-Plus
+CPlusPlus
 Go
 Flutter
 Powershell

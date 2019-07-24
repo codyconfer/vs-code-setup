@@ -15,26 +15,27 @@ Below you will find a list of extensions with their respective marketplace links
 
 > Extensions that act as general IDE enhancements for a web development environment on Windows.
 
-| Name                            | Marketplace Link                                                                              |
-| ------------------------------- | --------------------------------------------------------------------------------------------- |
-| Bracket Pair Colorizer          | <https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer>        |
-| Color Highlight                 | <https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight>                 |
-| indent-rainbow                  | <https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow>                  |
-| Paste JSON as Code              | <https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype>                     |
-| Guides                          | <https://marketplace.visualstudio.com/items?itemName=spywhere.guides>                         |
-| Path Intellisense               | <https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense>      |
-| Code Spell Checker              | <https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker>   |
-| Auto Close Tag                  | <https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag>            |
-| Auto Rename Tag                 | <https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag>           |
-| Prettier - Code formatter       | <https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode>                  |
-| Code Runner                     | <https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner>               |
-| Auto Complete Tag               | <https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag>         |
-| Better Comments                 | <https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments>              |
-| Quick and Simple Text Selection | <https://marketplace.visualstudio.com/items?itemName=dbankier.vscode-quick-select>            |
-| Highlight Trailing White Spaces | <https://marketplace.visualstudio.com/items?itemName=ybaumes.highlight-trailing-white-spaces> |
-| Todo Tree                       | <https://marketplace.visualstudio.com/items?itemName=gruntfuggly.todo-tree>                   |
-| Color Picker                    | <https://marketplace.visualstudio.com/items?itemName=anseki.vscode-color>                     |
-| Settings Sync                   | <https://marketplace.visualstudio.com/items?itemName=shan.code-settings-sync>                 |
+| Name                            | Marketplace Link                                                                            |
+| ------------------------------- | ------------------------------------------------------------------------------------------- |
+| Bracket Pair Colorizer          | <https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer>      |
+| Color Highlight                 | <https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight>               |
+| indent-rainbow                  | <https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow>                |
+| Paste JSON as Code              | <https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype>                   |
+| Guides                          | <https://marketplace.visualstudio.com/items?itemName=spywhere.guides>                       |
+| Path Intellisense               | <https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense>    |
+| Code Spell Checker              | <https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker> |
+| Auto Close Tag                  | <https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag>          |
+| Auto Rename Tag                 | <https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag>         |
+| Prettier - Code formatter       | <https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode>                |
+| Code Runner                     | <https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner>             |
+| Auto Complete Tag               | <https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag>       |
+| Better Comments                 | <https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments>            |
+| Quick and Simple Text Selection | <https://marketplace.visualstudio.com/items?itemName=dbankier.vscode-quick-select>          |
+| Todo Tree                       | <https://marketplace.visualstudio.com/items?itemName=gruntfuggly.todo-tree>                 |
+| Color Picker                    | <https://marketplace.visualstudio.com/items?itemName=anseki.vscode-color>                   |
+| Settings Sync                   | <https://marketplace.visualstudio.com/items?itemName=shan.code-settings-sync>               |
+| REST Client                     | <https://marketplace.visualstudio.com/items?itemName=humao.rest-client>                     |
+| Test Explorer UI                | <https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer>            |
 
 ## keybindings
 
@@ -63,14 +64,14 @@ Below you will find a list of extensions with their respective marketplace links
 
 > Extensions that provide syntax highlighting and tooling around c#
 
-| Name                          | Marketplace Link                                                                         |
-| ----------------------------- | ---------------------------------------------------------------------------------------- |
-| C#                            | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp>                   |
-| C# Extensions                 | <https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions>          |
-| C# XML Documentation Comments | <https://marketplace.visualstudio.com/items?itemName=k--kato.docomment>                  |
-| Razor+                        | <https://marketplace.visualstudio.com/items?itemName=austincummings.razor-plus>          |
-| .NET Core Tools               | <https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet>               |
-| .NET Core Test Explorer       | <https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet-test-explorer> |
+| Name                          | Marketplace Link                                                                        |
+| ----------------------------- | --------------------------------------------------------------------------------------- |
+| C#                            | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp>                  |
+| C# Extensions                 | <https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions>         |
+| C# XML Documentation Comments | <https://marketplace.visualstudio.com/items?itemName=k--kato.docomment>                 |
+| Razor+                        | <https://marketplace.visualstudio.com/items?itemName=austincummings.razor-plus>         |
+| .NET Core Tools               | <https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet>              |
+| NXunit Test Explorer          | <https://marketplace.visualstudio.com/items?itemName=wghats.vscode-nxunit-test-adapter> |
 
 ## javascript
 
@@ -91,7 +92,8 @@ Below you will find a list of extensions with their respective marketplace links
 | Debugger for Chrome                      | <https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome>              |
 | IntelliSense for CSS class names in HTML | <https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion>           |
 | Live Server                              | <https://marketplace.visualstudio.com/items?itemName=ritwickdey.liveserver>                     |
-| REST Client                              | <https://marketplace.visualstudio.com/items?itemName=humao.rest-client>                         |
+| Mocha Test Explorer                      | <https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-mocha-test-adapter>           |
+| Jest Test Explorer                       | <https://marketplace.visualstudio.com/items?itemName=rtbenfield.vscode-jest-test-adapter>       |
 
 ## node
 
@@ -205,16 +207,14 @@ Below you will find a list of extensions with their respective marketplace links
 
 > Extensions that provides tooling for azure projects
 
-| Name                                          | Marketplace Link                                                                                                 |
-| --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| Azure Account                                 | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account>                                    |
-| Azure Tools                                   | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack>                           |
-| Azure Machine Learning                        | <https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vscode-ai>                                       |
-| Azure Terraform                               | <https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureterraform>                        |
-| Azure Application Insights                    | <https://marketplace.visualstudio.com/items?itemName=VisualStudioOnlineApplicationInsights.application-insights> |
-| Azure Event Grid                              | <https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureeventgrid>                        |
-| Azure Blockchain Development Kit for Ethereum | <https://marketplace.visualstudio.com/items?itemName=AzBlockchain.azure-blockchain>                              |
-| Azure Storage Explorer                        | <https://marketplace.visualstudio.com/items?itemName=formulahendry.azure-storage-explorer>                       |
+| Name                       | Marketplace Link                                                                                                 |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Azure Account              | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account>                                    |
+| Azure Tools                | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack>                           |
+| Azure Machine Learning     | <https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vscode-ai>                                       |
+| Azure Terraform            | <https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureterraform>                        |
+| Azure Application Insights | <https://marketplace.visualstudio.com/items?itemName=VisualStudioOnlineApplicationInsights.application-insights> |
+| Azure Event Grid           | <https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureeventgrid>                        |
 
 ## azure devops
 
@@ -229,20 +229,21 @@ Below you will find a list of extensions with their respective marketplace links
 
 > Extensions that provides tooling for git
 
-| Name    | Marketplace Link                                                      |
-| ------- | --------------------------------------------------------------------- |
-| GitLens | <https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens> |
+| Name                 | Marketplace Link                                                                        |
+| -------------------- | --------------------------------------------------------------------------------------- |
+| GitLens              | <https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens>                   |
+| GitHub Pull Requests | <https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github> |
 
 ## team
 
 > Extensions that provides tooling for collaboration and chat
 
-| Name                                      | Marketplace Link                                                                       |
-| ----------------------------------------- | -------------------------------------------------------------------------------------- |
-| Team Chat: for Slack, Discord, Live Share | <https://marketplace.visualstudio.com/items?itemName=karigari.chat>                    |
-| Live Share Audio                          | <https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare-audio> |
-| Live Share Extension Pack                 | <https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare-pack>  |
-| Live Share                                | <https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare>       |
+| Name                      | Marketplace Link                                                                           |
+| ------------------------- | ------------------------------------------------------------------------------------------ |
+| Live Share Extension Pack | <https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare-pack>      |
+| CodeStream                | <https://marketplace.visualstudio.com/items?itemName=CodeStream.codestream>                |
+| Discord Presence          | <https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode>                |
+| Test Explorer Live Share  | <https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer-liveshare> |
 
 ## themes
 
