@@ -4,7 +4,7 @@ function Welcome {
     Write-Host "* Visual Studio Code extension installer                                       *"
     Write-Host "* Uninstalls extensions used by $codeUser                                      *"
     Write-Host "********************************************************************************"
-    Write-Host ""   
+    Write-Host ""
 }
 
 function Spacer {
@@ -29,14 +29,15 @@ function General {
     code --uninstall-extension "formulahendry.auto-complete-tag"
     code --uninstall-extension "aaron-bond.better-comments"
     code --uninstall-extension "dbankier.vscode-quick-select"
-    code --uninstall-extension "ybaumes.highlight-trailing-white-spaces"
     code --uninstall-extension "gruntfuggly.todo-tree"
     code --uninstall-extension "anseki.vscode-color"
     code --uninstall-extension "shan.code-settings-sync"
+    code --uninstall-extension "humao.rest-client"
+    code --uninstall-extension "hbenl.vscode-test-explorer"
     Spacer
 }
 
-function Key-Binding {
+function KeyBinding {
     Write-Host "[KEYBINDING] - Uninstalling keybinding extensions..."
     code --uninstall-extension "ms-vscode.vs-keybindings"
     code --uninstall-extension "ms-vscode.sublime-keybindings"
@@ -55,18 +56,18 @@ function Markdown {
     Spacer
 }
 
-function C-Sharp {
+function CSharp {
     Write-Host "[CS] - Uninstalling csharp extensions..."
     code --uninstall-extension "jchannon.csharpextensions"
     code --uninstall-extension "ms-vscode.csharp"
     code --uninstall-extension "k--kato.docomment"
     code --uninstall-extension "austincummings.razor-plus"
     code --uninstall-extension "formulahendry.dotnet"
-    code --uninstall-extension "formulahendry.dotnet-test-explorer"
+    code --uninstall-extension "wghats.vscode-nxunit-test-adapter"
     Spacer
 }
 
-function C-Plus-Plus {
+function CPlusPlus {
     Write-Host "[CPP] - Uninstalling c/c++ extensions..."
     code --uninstall-extension "ms-vscode.cpptools"
     Spacer
@@ -108,7 +109,6 @@ function Powershell {
 
 function Js {
     Write-Host "[JS] - Uninstalling javascript and web extensions..."
-    code --uninstall-extension "humao.rest-client"
     code --uninstall-extension "dbaeumer.vscode-eslint"
     code --uninstall-extension "christian-kohler.npm-intellisense"
     code --uninstall-extension "joelday.docthis"
@@ -122,6 +122,8 @@ function Js {
     code --uninstall-extension "msjsdiag.debugger-for-chrome"
     code --uninstall-extension "ritwickdey.liveserver"
     code --uninstall-extension "Zignd.html-css-class-completion"
+    code --uninstall-extension "hbenl.vscode-mocha-test-adapter"
+    code --uninstall-extension "rtbenfield.vscode-jest-test-adapter"
     Spacer
 }
 
@@ -178,9 +180,6 @@ function Azure {
     code --uninstall-extension "ms-azuretools.vscode-azureterraform"
     code --uninstall-extension "VisualStudioOnlineApplicationInsights.application-insights"
     code --uninstall-extension "ms-azuretools.vscode-azureeventgrid"
-    code --uninstall-extension "AzBlockchain.azure-blockchain"
-    code --uninstall-extension "formulahendry.azure-storage-explorer"
-    code --uninstall-extension "JuanBlanco.solidity"
     code --uninstall-extension "ms-vscode.azure-account"
     Spacer
 }
@@ -195,15 +194,16 @@ function Devops {
 function Git {
     Write-Host "[GIT] - Uninstalling git extensions..."
     code --uninstall-extension "eamodio.gitlens"
+    code --uninstall-extension "GitHub.vscode-pull-request-github"
     Spacer
 }
 
 function Team {
     Write-Host "[TEAM] - Uninstalling team collaboration and chat extensions..."
-    code --uninstall-extension "karigari.chat"
-    code --uninstall-extension "ms-vsliveshare.vsliveshare-audio"
     code --uninstall-extension "ms-vsliveshare.vsliveshare-pack"
-    code --uninstall-extension "ms-vsliveshare.vsliveshare"
+    code --uninstall-extension "icrawl.discord-vscode"
+    code --uninstall-extension "CodeStream.codestream"
+    code --uninstall-extension "hbenl.vscode-test-explorer-liveshare"
     Spacer
 }
 
@@ -230,7 +230,7 @@ function List {
 
 Welcome -codeUser codyconfer
 General
-Key-Binding
+KeyBinding
 Markdown
 Sql
 Iot
@@ -239,14 +239,14 @@ Git
 Devops
 Team
 Themes
-C-Sharp
+CSharp
 Java
 Node
 Vue
 Angular
 Js
 Python
-C-Plus-Plus
+CPlusPlus
 Go
 Flutter
 Powershell

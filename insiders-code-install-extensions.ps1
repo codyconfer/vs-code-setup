@@ -4,7 +4,7 @@ function Welcome {
     Write-Host "* Visual Studio Code Insiders extension installer                              *"
     Write-Host "* Installs extensions used by $codeUser                                        *"
     Write-Host "********************************************************************************"
-    Write-Host ""   
+    Write-Host ""
 }
 
 function Spacer {
@@ -29,14 +29,15 @@ function General {
     code-insiders --install-extension "formulahendry.auto-complete-tag"
     code-insiders --install-extension "aaron-bond.better-comments"
     code-insiders --install-extension "dbankier.vscode-quick-select"
-    code-insiders --install-extension "ybaumes.highlight-trailing-white-spaces"
     code-insiders --install-extension "gruntfuggly.todo-tree"
     code-insiders --install-extension "anseki.vscode-color"
     code-insiders --install-extension "shan.code-settings-sync"
+    code-insiders --install-extension "humao.rest-client"
+    code-insiders --install-extension "hbenl.vscode-test-explorer"
     Spacer
 }
 
-function Key-Binding {
+function KeyBinding {
     Param([int] $keyBinding)
     Write-Host "[KEYBINDING] - Applying keybinding..."
     if ($keyBinding -eq 1) { code-insiders --install-extension "ms-vscode.vs-keybindings" }
@@ -56,18 +57,18 @@ function Markdown {
     Spacer
 }
 
-function C-Sharp {
+function CSharp {
     Write-Host "[CS] - Installing csharp extensions..."
     code-insiders --install-extension "jchannon.csharpextensions"
     code-insiders --install-extension "ms-vscode.csharp"
     code-insiders --install-extension "k--kato.docomment"
     code-insiders --install-extension "austincummings.razor-plus"
     code-insiders --install-extension "formulahendry.dotnet"
-    code-insiders --install-extension "formulahendry.dotnet-test-explorer"
+    code-insiders --install-extension "wghats.vscode-nxunit-test-adapter"
     Spacer
 }
 
-function C-Plus-Plus {
+function CPlusPlus {
     Write-Host "[CPP] - Installing c/c++ extensions..."
     code-insiders --install-extension "ms-vscode.cpptools"
     Spacer
@@ -122,7 +123,8 @@ function Js {
     code-insiders --install-extension "msjsdiag.debugger-for-chrome"
     code-insiders --install-extension "ritwickdey.liveserver"
     code-insiders --install-extension "Zignd.html-css-class-completion"
-    code-insiders --install-extension "humao.rest-client"
+    code-insiders --install-extension "hbenl.vscode-mocha-test-adapter"
+    code-insiders --install-extension "rtbenfield.vscode-jest-test-adapter"
     Spacer
 }
 
@@ -180,8 +182,6 @@ function Azure {
     code-insiders --install-extension "ms-azuretools.vscode-azureterraform"
     code-insiders --install-extension "VisualStudioOnlineApplicationInsights.application-insights"
     code-insiders --install-extension "ms-azuretools.vscode-azureeventgrid"
-    code-insiders --install-extension "AzBlockchain.azure-blockchain"
-    code-insiders --install-extension "formulahendry.azure-storage-explorer"
     Spacer
 }
 
@@ -195,15 +195,16 @@ function Devops {
 function Git {
     Write-Host "[GIT] - Installing git extensions..."
     code-insiders --install-extension "eamodio.gitlens"
+    code-insiders --install-extension "GitHub.vscode-pull-request-github"
     Spacer
 }
 
 function Team {
     Write-Host "[TEAM] - Installing team collaboration and chat extensions..."
-    code-insiders --install-extension "karigari.chat"
-    code-insiders --install-extension "ms-vsliveshare.vsliveshare-audio"
     code-insiders --install-extension "ms-vsliveshare.vsliveshare-pack"
-    code-insiders --install-extension "ms-vsliveshare.vsliveshare"
+    code-insiders --install-extension "icrawl.discord-vscode"
+    code-insiders --install-extension "CodeStream.codestream"
+    code-insiders --install-extension "hbenl.vscode-test-explorer-liveshare"
     Spacer
 }
 
@@ -257,16 +258,16 @@ $devopsChoice = Read-Host -Prompt "[DEVOPS][18 of 19] - Install azure devops ext
 $teamChoice = Read-Host -Prompt "[TEAM][19 of 19] - Install team collaboration and chat extensions? (y or n)"
 Spacer
 General
-Key-Binding -keyBinding $keyChoice
+KeyBinding -keyBinding $keyChoice
 if ($mdChoice.ToLower() -eq "y") { Markdown }
-if ($csChoice.ToLower() -eq "y") { C-Sharp }
+if ($csChoice.ToLower() -eq "y") { CSharp }
 if ($javaChoice.ToLower() -eq "y") { Java }
 if ($jsChoice.ToLower() -eq "y") { Js }
 if ($nodeChoice.ToLower() -eq "y") { Node }
 if ($vueChoice.ToLower() -eq "y") { Vue }
 if ($angularChoice.ToLower() -eq "y") { Angular }
 if ($pythonChoice.ToLower() -eq "y") { Python }
-if ($cppChoice.ToLower() -eq "y") { C-Plus-Plus }
+if ($cppChoice.ToLower() -eq "y") { CPlusPlus }
 if ($goChoice.ToLower() -eq "y") { Go }
 if ($flutterChoice.ToLower() -eq "y") { Flutter }
 if ($ps1Choice.ToLower() -eq "y") { Powershell }
