@@ -8,9 +8,9 @@ function Welcome {
 }
 
 function Spacer {
-    echo ""
-    echo "********************************************************************************"
-    echo ""
+    Write-Host ""
+    Write-Host "********************************************************************************"
+    Write-Host ""
 }
 
 function General {
@@ -100,7 +100,7 @@ function Flutter {
     Spacer
 }
 
-function Powershell{
+function Powershell {
     Write-Host "[POWERSHELL] - Uninstalling powershell extensions..."
     code-insiders --uninstall-extension "ms-vscode.PowerShell"
     Spacer
@@ -163,7 +163,7 @@ function Iot {
     Spacer
 }
 
-function Containers{
+function Containers {
     Write-Host "[CONTAINERS] - Uninstalling docker/kubernetes extensions..."
     code-insiders --uninstall-extension "redhat.vscode-yaml"
     code-insiders --uninstall-extension "ms-kubernetes-tools.vscode-kubernetes-tools"
@@ -171,7 +171,7 @@ function Containers{
     Spacer
 }
 
-function Azure{
+function Azure {
     Write-Host "[AZURE] - Uninstalling azure extensions..."
     code-insiders --uninstall-extension "ms-vscode.vscode-node-azure-pack"
     code-insiders --uninstall-extension "ms-toolsai.vscode-ai"
@@ -185,7 +185,7 @@ function Azure{
     Spacer
 }
 
-function Devops{
+function Devops {
     Write-Host "[DEVOPS] - Uninstalling azure devops extensions..."
     code-insiders --uninstall-extension "ms-azure-devops.azure-pipelines"
     code-insiders --uninstall-extension "ms-vsts.team"

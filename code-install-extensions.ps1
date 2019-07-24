@@ -4,13 +4,13 @@ function Welcome {
     Write-Host "* Visual Studio Code extension installer                                       *"
     Write-Host "* Installs extensions used by $codeUser                                        *"
     Write-Host "********************************************************************************"
-    Write-Host ""   
+    Write-Host ""
 }
 
 function Spacer {
-    echo ""
-    echo "********************************************************************************"
-    echo ""
+    Write-Host ""
+    Write-Host "********************************************************************************"
+    Write-Host ""
 }
 
 function General {
