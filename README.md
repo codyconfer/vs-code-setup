@@ -15,27 +15,24 @@ Below you will find a list of extensions with their respective marketplace links
 
 > Extensions that act as general IDE enhancements for a web development environment on Windows.
 
-| Name                            | Marketplace Link                                                                            |
-| ------------------------------- | ------------------------------------------------------------------------------------------- |
-| Bracket Pair Colorizer          | <https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer>      |
-| Color Highlight                 | <https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight>               |
-| indent-rainbow                  | <https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow>                |
-| Paste JSON as Code              | <https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype>                   |
-| Guides                          | <https://marketplace.visualstudio.com/items?itemName=spywhere.guides>                       |
-| Path Intellisense               | <https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense>    |
-| Code Spell Checker              | <https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker> |
-| Auto Close Tag                  | <https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag>          |
-| Auto Rename Tag                 | <https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag>         |
-| Prettier - Code formatter       | <https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode>                |
-| Code Runner                     | <https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner>             |
-| Auto Complete Tag               | <https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag>       |
-| Better Comments                 | <https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments>            |
-| Quick and Simple Text Selection | <https://marketplace.visualstudio.com/items?itemName=dbankier.vscode-quick-select>          |
-| Todo Tree                       | <https://marketplace.visualstudio.com/items?itemName=gruntfuggly.todo-tree>                 |
-| Color Picker                    | <https://marketplace.visualstudio.com/items?itemName=anseki.vscode-color>                   |
-| Settings Sync                   | <https://marketplace.visualstudio.com/items?itemName=shan.code-settings-sync>               |
-| REST Client                     | <https://marketplace.visualstudio.com/items?itemName=humao.rest-client>                     |
-| Test Explorer UI                | <https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer>            |
+| Name                      | Marketplace Link                                                                            |
+| ------------------------- | ------------------------------------------------------------------------------------------- |
+| Bracket Pair Colorizer    | <https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer>      |
+| Color Highlight           | <https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight>               |
+| indent-rainbow            | <https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow>                |
+| Paste JSON as Code        | <https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype>                   |
+| Guides                    | <https://marketplace.visualstudio.com/items?itemName=spywhere.guides>                       |
+| Path Intellisense         | <https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense>    |
+| Code Spell Checker        | <https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker> |
+| Auto Close Tag            | <https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag>          |
+| Auto Rename Tag           | <https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag>         |
+| Prettier - Code formatter | <https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode>                |
+| Code Runner               | <https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner>             |
+| Auto Complete Tag         | <https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag>       |
+| Todo Tree                 | <https://marketplace.visualstudio.com/items?itemName=gruntfuggly.todo-tree>                 |
+| Settings Sync             | <https://marketplace.visualstudio.com/items?itemName=shan.code-settings-sync>               |
+| REST Client               | <https://marketplace.visualstudio.com/items?itemName=humao.rest-client>                     |
+| Test Explorer UI          | <https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer>            |
 
 ## keybindings
 
