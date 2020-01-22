@@ -183,12 +183,20 @@ Below you will find a list of extensions with their respective marketplace links
 
 > Extensions that provides tooling for IoT and arduino projects
 
-| Name                  | Marketplace Link                                                                                   |
-| --------------------- | -------------------------------------------------------------------------------------------------- |
-| Arduino               | <https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-arduino>                 |
-| Azure IoT Hub Toolkit | <https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-toolkit>              |
-| IoT Device Cube       | <https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-iot-device-cube>         |
-| Remote Development    | <https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack> |
+| Name                  | Marketplace Link                                                                           |
+| --------------------- | ------------------------------------------------------------------------------------------ |
+| Arduino               | <https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-arduino>         |
+| Azure IoT Hub Toolkit | <https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-toolkit>      |
+| IoT Device Cube       | <https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-iot-device-cube> |
+
+## remote development
+
+> Extensions that provide tooling for remote development.
+
+| Name                 | Marketplace Link                                                                                   |
+| -------------------- | -------------------------------------------------------------------------------------------------- |
+| Remote Development   | <https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack> |
+| Visual Studio Online | <https://marketplace.visualstudio.com/items?itemName=ms-vsonline.vsonline>                         |
 
 ## containers
 

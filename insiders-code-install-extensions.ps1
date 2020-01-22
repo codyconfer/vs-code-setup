@@ -159,7 +159,13 @@ function Iot {
     code-insiders --install-extension "vsciot-vscode.vscode-arduino"
     code-insiders --install-extension "vsciot-vscode.azure-iot-toolkit"
     code-insiders --install-extension "vsciot-vscode.vscode-iot-device-cube"
+    Spacer
+}
+
+function Remote {
+    Write-Host "[REMOTE] - Installing remote extensions..."
     code-insiders --install-extension "ms-vscode-remote.vscode-remote-extensionpack"
+    code-insiders --install-extension "ms-vsonline.vsonline"
     Spacer
 }
 
@@ -168,6 +174,7 @@ function Containers {
     code-insiders --install-extension "redhat.vscode-yaml"
     code-insiders --install-extension "ms-kubernetes-tools.vscode-kubernetes-tools"
     code-insiders --install-extension "ms-azuretools.vscode-docker"
+    code-insiders --install-extension "ms-vscode-remote.remote-containers"
     Spacer
 }
 
@@ -227,7 +234,7 @@ function List {
 }
 
 Welcome -codeUser codyconfer
-Write-Host "[KEYBINDING][1 of 19] - Choose a selection for keybindings..."
+Write-Host "[KEYBINDING][1 of 20] - Choose a selection for keybindings..."
 Write-Host "0 Visual Studio Code Defaults"
 Write-Host "1 Visual Studio"
 Write-Host "2 Sublime"
@@ -235,24 +242,25 @@ Write-Host "3 Atom"
 Write-Host "4 Notepad++"
 Write-Host "5 Eclipse"
 $keyChoice = Read-Host -Prompt "(0, 1, 2, 3, 4 or 5)"
-$mdChoice = Read-Host -Prompt "[MARKDOWN][2 of 19] - Install markdown extensions? (y or n)"
-$csChoice = Read-Host -Prompt "[CS][3 of 19] - Install extensions for csharp development? (y or n)"
-$javaChoice = Read-Host -Prompt "[JAVA][4 of 19] - Install java extensions? (y or n)"
-$jsChoice = Read-Host -Prompt "[JS][5 of 19] - Install extensions for javascript and web development? (y or n)"
-$nodeChoice = Read-Host -Prompt "[NODE][6 of 19] - Install node debugging extensions? (y or n)"
-$vueChoice = Read-Host -Prompt "[VUE][7 of 19] - Install vue extensions? (y or n)"
-$angularChoice = Read-Host -Prompt "[ANGULAR][8 of 19] - Install angular extensions? (y or n)"
-$pythonChoice = Read-Host -Prompt "[PYTHON][9 of 19] - Install python extensions? (y or n)"
-$cppChoice = Read-Host -Prompt "[CPP][10 of 19] - Install c/c++ extensions? (y or n)"
-$goChoice = Read-Host -Prompt "[GO][11 of 19] - Install golang extensions? (y or n)"
-$flutterChoice = Read-Host -Prompt "[FLUTTER][12 of 19] - Install flutter/dart extensions? (y or n)"
-$ps1Choice = Read-Host -Prompt "[POWERSHELL][13 of 19] - Install powershell extensions? (y or n)"
-$sqlChoice = Read-Host -Prompt "[SQL][14 of 19] - Install sql extensions? (y or n)"
-$iotChoice = Read-Host -Prompt "[IOT][15 of 19] - Install iot and arduino extensions? (y or n)"
-$azureChoice = Read-Host -Prompt "[AZURE][16 of 19] - Install azure extensions? (y or n)"
-$gitChoice = Read-Host -Prompt "[GIT][17 of 19] - Install git extensions? (y or n)"
-$devopsChoice = Read-Host -Prompt "[DEVOPS][18 of 19] - Install azure devops extensions? (y or n)"
-$teamChoice = Read-Host -Prompt "[TEAM][19 of 19] - Install team collaboration and chat extensions? (y or n)"
+$mdChoice = Read-Host -Prompt "[MARKDOWN][2 of 20] - Install markdown extensions? (y or n)"
+$csChoice = Read-Host -Prompt "[CS][3 of 20] - Install extensions for csharp development? (y or n)"
+$javaChoice = Read-Host -Prompt "[JAVA][4 of 20] - Install java extensions? (y or n)"
+$jsChoice = Read-Host -Prompt "[JS][5 of 20] - Install extensions for javascript and web development? (y or n)"
+$nodeChoice = Read-Host -Prompt "[NODE][6 of 20] - Install node debugging extensions? (y or n)"
+$vueChoice = Read-Host -Prompt "[VUE][7 of 20] - Install vue extensions? (y or n)"
+$angularChoice = Read-Host -Prompt "[ANGULAR][8 of 20] - Install angular extensions? (y or n)"
+$pythonChoice = Read-Host -Prompt "[PYTHON][9 of 20] - Install python extensions? (y or n)"
+$cppChoice = Read-Host -Prompt "[CPP][10 of 20] - Install c/c++ extensions? (y or n)"
+$goChoice = Read-Host -Prompt "[GO][11 of 20] - Install golang extensions? (y or n)"
+$flutterChoice = Read-Host -Prompt "[FLUTTER][12 of 20] - Install flutter/dart extensions? (y or n)"
+$ps1Choice = Read-Host -Prompt "[POWERSHELL][13 of 20] - Install powershell extensions? (y or n)"
+$sqlChoice = Read-Host -Prompt "[SQL][14 of 20] - Install sql extensions? (y or n)"
+$iotChoice = Read-Host -Prompt "[IOT][15 of 20] - Install iot and arduino extensions? (y or n)"
+$remoteChoice = Read-Host -Prompt "[REMOTE][16 of 20] - Install remote development and vs online extensions? (y or n)"
+$azureChoice = Read-Host -Prompt "[AZURE][17 of 20] - Install azure extensions? (y or n)"
+$gitChoice = Read-Host -Prompt "[GIT][18 of 20] - Install git extensions? (y or n)"
+$devopsChoice = Read-Host -Prompt "[DEVOPS][19 of 20] - Install azure devops extensions? (y or n)"
+$teamChoice = Read-Host -Prompt "[TEAM][20 of 20] - Install team collaboration and chat extensions? (y or n)"
 Spacer
 General
 KeyBinding -keyBinding $keyChoice
@@ -270,6 +278,7 @@ if ($flutterChoice.ToLower() -eq "y") { Flutter }
 if ($ps1Choice.ToLower() -eq "y") { Powershell }
 if ($sqlChoice.ToLower() -eq "y") { Sql }
 if ($iotChoice.ToLower() -eq "y") { Iot }
+if ($remoteChoice.ToLower() -eq "y") { Remote }
 if ($azureChoice.ToLower() -eq "y") { Azure }
 if ($gitChoice.ToLower() -eq "y") { Git }
 if ($devopsChoice.ToLower() -eq "y") { Devops }

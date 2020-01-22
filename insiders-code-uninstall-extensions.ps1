@@ -158,7 +158,13 @@ function Iot {
     code-insiders --uninstall-extension "vsciot-vscode.vscode-arduino"
     code-insiders --uninstall-extension "vsciot-vscode.azure-iot-toolkit"
     code-insiders --uninstall-extension "vsciot-vscode.vscode-iot-device-cube"
+    Spacer
+}
+
+function Remote {
+    Write-Host "[REMOTE] - Uninstalling remote extensions..."
     code-insiders --uninstall-extension "ms-vscode-remote.vscode-remote-extensionpack"
+    code-insiders --uninstall-extension "ms-vsonline.vsonline"
     Spacer
 }
 
@@ -167,6 +173,7 @@ function Containers {
     code-insiders --uninstall-extension "redhat.vscode-yaml"
     code-insiders --uninstall-extension "ms-kubernetes-tools.vscode-kubernetes-tools"
     code-insiders --uninstall-extension "ms-azuretools.vscode-docker"
+    code-insiders --uninstall-extension "ms-vscode-remote.remote-containers"
     Spacer
 }
 
@@ -231,6 +238,7 @@ KeyBinding
 Markdown
 Sql
 Iot
+Remote
 Azure
 Git
 Devops
