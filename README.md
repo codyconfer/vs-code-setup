@@ -33,6 +33,9 @@ Below you will find a list of extensions with their respective marketplace links
 | Settings Sync             | <https://marketplace.visualstudio.com/items?itemName=shan.code-settings-sync>               |
 | REST Client               | <https://marketplace.visualstudio.com/items?itemName=humao.rest-client>                     |
 | Test Explorer UI          | <https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer>            |
+| Debugger for Edge         | <https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-edge>            |
+| Debugger for Chrome       | <https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome>          |
+| Debugger for Firefox      | <https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug> |
 
 ## keybindings
 
@@ -63,7 +66,7 @@ Below you will find a list of extensions with their respective marketplace links
 
 | Name                          | Marketplace Link                                                                        |
 | ----------------------------- | --------------------------------------------------------------------------------------- |
-| C#                            | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp>                  |
+| C#                            | <https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp>             |
 | C# Extensions                 | <https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions>         |
 | C# XML Documentation Comments | <https://marketplace.visualstudio.com/items?itemName=k--kato.docomment>                 |
 | Razor+                        | <https://marketplace.visualstudio.com/items?itemName=austincummings.razor-plus>         |
@@ -85,12 +88,10 @@ Below you will find a list of extensions with their respective marketplace links
 | TSLint                                   | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin> |
 | Visual Studio IntelliCode                | <https://marketplace.visualstudio.com/items?itemName=visualstudioexptteam.vscodeintellicode>    |
 | Quokka.js                                | <https://marketplace.visualstudio.com/items?itemName=wallabyjs.quokka-vscode>                   |
-| Debugger for Edge                        | <https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-edge>                |
-| Debugger for Chrome                      | <https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome>              |
 | IntelliSense for CSS class names in HTML | <https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion>           |
 | Live Server                              | <https://marketplace.visualstudio.com/items?itemName=ritwickdey.liveserver>                     |
 | Mocha Test Explorer                      | <https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-mocha-test-adapter>           |
-| Jest Test Explorer                       | <https://marketplace.visualstudio.com/items?itemName=rtbenfield.vscode-jest-test-adapter>       |
+| Jest Test Explorer                       | <https://marketplace.visualstudio.com/items?itemName=kavod-io.vscode-jest-test-adapter>         |
 
 ## node
 
@@ -262,7 +263,7 @@ Below you will find a list of extensions with their respective marketplace links
 | Markdown Theme Kit       | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.Theme-MarkdownKit>      |
 | Material Icon Theme      | <https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme>        |
 | vscode-icons             | <https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons>   |
-| Linux Themes for VS Code | <https://marketplace.visualstudio.com/items?itemName=SolarLiner.linux-themes>          |
+| Linux Themes for VS Code | <https://marketplace.visualstudio.com/items?itemName=rdnlsmith.linux-themes>           |
 | Ayu                      | <https://marketplace.visualstudio.com/items?itemName=teabyii.ayu>                      |
 | file-icons               | <https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons>            |
 | Ubuntu Style Theme       | <https://marketplace.visualstudio.com/items?itemName=formulahendry.theme-ubuntu-style> |
@@ -342,9 +343,9 @@ Below you will find a list of extensions with their respective marketplace links
   },
   "editor.showFoldingControls": "mouseover",
   "editor.smoothScrolling": false,
-  "editor.tabSize": 2,
+  "editor.tabSize": 4,
   "scm.diffDecorations": "all",
-  "scm.diffDecorationsGutterWidth": 2,
+  "scm.diffDecorationsGutterWidth": 4,
   "terminal.integrated.confirmOnExit": false,
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.cursorBlinking": true,
@@ -435,7 +436,7 @@ Below you will find a list of extensions with their respective marketplace links
   "bracketPairColorizer.showVerticalScopeLine": true,
   "bracketPairColorizer.timeOut": 200,
   "html-css-class-completion.enableEmmetSupport": true,
-  "prettier.tabWidth": 2,
+  "prettier.tabWidth": 4,
   "workbench.iconTheme": "ayu",
   "better-comments.tags": [
     {
