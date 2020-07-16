@@ -30,7 +30,6 @@ Below you will find a list of extensions with their respective marketplace links
 | Code Runner               | <https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner>             |
 | Auto Complete Tag         | <https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag>       |
 | Todo Tree                 | <https://marketplace.visualstudio.com/items?itemName=gruntfuggly.todo-tree>                 |
-| Settings Sync             | <https://marketplace.visualstudio.com/items?itemName=shan.code-settings-sync>               |
 | REST Client               | <https://marketplace.visualstudio.com/items?itemName=humao.rest-client>                     |
 | Test Explorer UI          | <https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer>            |
 | Debugger for Edge         | <https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-edge>            |
@@ -87,9 +86,7 @@ Below you will find a list of extensions with their respective marketplace links
 | npm script integration                   | <https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script>                     |
 | TSLint                                   | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin> |
 | Visual Studio IntelliCode                | <https://marketplace.visualstudio.com/items?itemName=visualstudioexptteam.vscodeintellicode>    |
-| Quokka.js                                | <https://marketplace.visualstudio.com/items?itemName=wallabyjs.quokka-vscode>                   |
 | IntelliSense for CSS class names in HTML | <https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion>           |
-| Live Server                              | <https://marketplace.visualstudio.com/items?itemName=ritwickdey.liveserver>                     |
 | Mocha Test Explorer                      | <https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-mocha-test-adapter>           |
 | Jest Test Explorer                       | <https://marketplace.visualstudio.com/items?itemName=kavod-io.vscode-jest-test-adapter>         |
 
@@ -194,10 +191,17 @@ Below you will find a list of extensions with their respective marketplace links
 
 > Extensions that provide tooling for remote development.
 
-| Name                 | Marketplace Link                                                                                   |
-| -------------------- | -------------------------------------------------------------------------------------------------- |
-| Remote Development   | <https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack> |
-| Visual Studio Online | <https://marketplace.visualstudio.com/items?itemName=ms-vsonline.vsonline>                         |
+| Name               | Marketplace Link                                                                                   |
+| ------------------ | -------------------------------------------------------------------------------------------------- |
+| Remote Development | <https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack> |
+
+## codespace development
+
+> Extensions that support VS codespaces
+
+| Name                 | Marketplace Link                                                           |
+| -------------------- | -------------------------------------------------------------------------- |
+| Visual Studio Online | <https://marketplace.visualstudio.com/items?itemName=ms-vsonline.vsonline> |
 
 ## containers
 
@@ -235,10 +239,9 @@ Below you will find a list of extensions with their respective marketplace links
 
 > Extensions that provides tooling for git
 
-| Name                 | Marketplace Link                                                                        |
-| -------------------- | --------------------------------------------------------------------------------------- |
-| GitLens              | <https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens>                   |
-| GitHub Pull Requests | <https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github> |
+| Name    | Marketplace Link                                                      |
+| ------- | --------------------------------------------------------------------- |
+| GitLens | <https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens> |
 
 ## team
 
@@ -247,8 +250,6 @@ Below you will find a list of extensions with their respective marketplace links
 | Name                      | Marketplace Link                                                                           |
 | ------------------------- | ------------------------------------------------------------------------------------------ |
 | Live Share Extension Pack | <https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare-pack>      |
-| CodeStream                | <https://marketplace.visualstudio.com/items?itemName=CodeStream.codestream>                |
-| Discord Presence          | <https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode>                |
 | Test Explorer Live Share  | <https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer-liveshare> |
 
 ## themes
