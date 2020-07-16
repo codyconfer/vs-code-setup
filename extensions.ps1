@@ -93,9 +93,9 @@ $iotExts = @(
     "vsciot-vscode.azure-iot-toolkit",
     "vsciot-vscode.vscode-iot-device-cube")
 
-$remoteExts = @(
-    "ms-vscode-remote.vscode-remote-extensionpack",
-    "ms-vsonline.vsonline")
+$remoteExts = @("ms-vscode-remote.vscode-remote-extensionpack")
+
+$codespacesExts = @("ms-vsonline.vsonline")
 
 $containerExts = @(
     "redhat.vscode-yaml",

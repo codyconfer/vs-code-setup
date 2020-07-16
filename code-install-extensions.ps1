@@ -52,26 +52,27 @@ Write-Host "3 Atom"
 Write-Host "4 Notepad++"
 Write-Host "5 Eclipse"
 $keyChoice = Read-Host -Prompt "(0, 1, 2, 3, 4 or 5)"
-$mdChoice = Read-Host -Prompt "[MARKDOWN][2 of 21] - Install markdown extensions? (y or n)"
-$csChoice = Read-Host -Prompt "[CS][3 of 21] - Install extensions for csharp development? (y or n)"
-$javaChoice = Read-Host -Prompt "[JAVA][4 of 21] - Install java extensions? (y or n)"
-$jsChoice = Read-Host -Prompt "[JS][5 of 21] - Install extensions for javascript and web development? (y or n)"
-$nodeChoice = Read-Host -Prompt "[NODE][6 of 21] - Install node debugging extensions? (y or n)"
-$vueChoice = Read-Host -Prompt "[VUE][7 of 21] - Install vue extensions? (y or n)"
-$angularChoice = Read-Host -Prompt "[ANGULAR][8 of 21] - Install angular extensions? (y or n)"
-$pythonChoice = Read-Host -Prompt "[PYTHON][9 of 21] - Install python extensions? (y or n)"
-$cppChoice = Read-Host -Prompt "[CPP][10 of 21] - Install c/c++ extensions? (y or n)"
-$goChoice = Read-Host -Prompt "[GO][11 of 21] - Install golang extensions? (y or n)"
-$flutterChoice = Read-Host -Prompt "[FLUTTER][12 of 21] - Install flutter/dart extensions? (y or n)"
-$ps1Choice = Read-Host -Prompt "[POWERSHELL][13 of 21] - Install powershell extensions? (y or n)"
-$sqlChoice = Read-Host -Prompt "[SQL][14 of 21] - Install sql extensions? (y or n)"
-$iotChoice = Read-Host -Prompt "[IOT][15 of 21] - Install iot and arduino extensions? (y or n)"
-$containerChoice = Read-Host -Prompt "[Container][16 of 21] - Install kubernetes and docker extensions? (y or n)"
-$remoteChoice = Read-Host -Prompt "[REMOTE][17 of 21] - Install remote development and vs online extensions? (y or n)"
-$azureChoice = Read-Host -Prompt "[AZURE][18 of 21] - Install azure extensions? (y or n)"
-$gitChoice = Read-Host -Prompt "[GIT][19 of 21] - Install git extensions? (y or n)"
-$devopsChoice = Read-Host -Prompt "[DEVOPS][20 of 21] - Install azure devops extensions? (y or n)"
-$teamChoice = Read-Host -Prompt "[TEAM][21 of 21] - Install team collaboration and chat extensions? (y or n)"
+$mdChoice = Read-Host -Prompt "[MARKDOWN][2 of 22] - Install markdown extensions? (y or n)"
+$csChoice = Read-Host -Prompt "[CS][3 of 22] - Install extensions for csharp development? (y or n)"
+$javaChoice = Read-Host -Prompt "[JAVA][4 of 22] - Install java extensions? (y or n)"
+$jsChoice = Read-Host -Prompt "[JS][5 of 22] - Install extensions for javascript and web development? (y or n)"
+$nodeChoice = Read-Host -Prompt "[NODE][6 of 22] - Install node debugging extensions? (y or n)"
+$vueChoice = Read-Host -Prompt "[VUE][7 of 22] - Install vue extensions? (y or n)"
+$angularChoice = Read-Host -Prompt "[ANGULAR][8 of 22] - Install angular extensions? (y or n)"
+$pythonChoice = Read-Host -Prompt "[PYTHON][9 of 22] - Install python extensions? (y or n)"
+$cppChoice = Read-Host -Prompt "[CPP][10 of 22] - Install c/c++ extensions? (y or n)"
+$goChoice = Read-Host -Prompt "[GO][11 of 22] - Install golang extensions? (y or n)"
+$flutterChoice = Read-Host -Prompt "[FLUTTER][12 of 22] - Install flutter/dart extensions? (y or n)"
+$ps1Choice = Read-Host -Prompt "[POWERSHELL][13 of 22] - Install powershell extensions? (y or n)"
+$sqlChoice = Read-Host -Prompt "[SQL][14 of 22] - Install sql extensions? (y or n)"
+$iotChoice = Read-Host -Prompt "[IOT][15 of 22] - Install iot and arduino extensions? (y or n)"
+$containerChoice = Read-Host -Prompt "[Container][16 of 22] - Install kubernetes and docker extensions? (y or n)"
+$remoteChoice = Read-Host -Prompt "[REMOTE][17 of 22] - Install remote development? (y or n)"
+$codespaceChoice = Read-Host -Prompt "[CODESPACES][18 of 22] - Do you use visual studio codespaces? (y or n)"
+$azureChoice = Read-Host -Prompt "[AZURE][19 of 22] - Install azure extensions? (y or n)"
+$gitChoice = Read-Host -Prompt "[GIT][20 of 22] - Install git extensions? (y or n)"
+$devopsChoice = Read-Host -Prompt "[DEVOPS][21 of 22] - Install azure devops extensions? (y or n)"
+$teamChoice = Read-Host -Prompt "[TEAM][22 of 22] - Install team collaboration and chat extensions? (y or n)"
 
 Spacer
 
@@ -163,6 +164,12 @@ if ($remoteChoice.ToLower() -eq "y")
 { 
     Write-Host "[REMOTE] - Installing remote extensions..."
     Install -exts $remoteExts
+}
+
+if ($codespaceChoice.ToLower() -eq "y")
+{ 
+    Write-Host "[CODESPACE] - Installing visual studio codespace extensions..."
+    Install -exts $codespacesExts
 }
 
 if ($azureChoice.ToLower() -eq "y")
