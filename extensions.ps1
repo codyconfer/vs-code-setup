@@ -70,7 +70,7 @@ $jsExts = @(
     "ms-vscode.vscode-typescript-tslint-plugin",
     "Zignd.html-css-class-completion",
     "hbenl.vscode-mocha-test-adapter",
-    "rtbenfield.vscode-jest-test-adapter")
+    "kavod-io.vscode-jest-test-adapter")
 
 $nodeExts = @("ms-vscode.node-debug2")
 
