@@ -12,7 +12,6 @@ $generalExts = @(
     "formulahendry.code-runner",
     "formulahendry.auto-complete-tag",
     "gruntfuggly.todo-tree",
-    "shan.code-settings-sync",
     "humao.rest-client",
     "hbenl.vscode-test-explorer",
     "visualstudioexptteam.vscodeintellicode",
@@ -69,8 +68,6 @@ $jsExts = @(
     "nickdodd79.gulptasks",
     "eg2.vscode-npm-script",
     "ms-vscode.vscode-typescript-tslint-plugin",
-    "wallabyjs.quokka-vscode",
-    "ritwickdey.liveserver",
     "Zignd.html-css-class-completion",
     "hbenl.vscode-mocha-test-adapter",
     "rtbenfield.vscode-jest-test-adapter")
@@ -93,9 +90,9 @@ $iotExts = @(
     "vsciot-vscode.azure-iot-toolkit",
     "vsciot-vscode.vscode-iot-device-cube")
 
-$remoteExts = @(
-    "ms-vscode-remote.vscode-remote-extensionpack",
-    "ms-vsonline.vsonline")
+$remoteExts = @("ms-vscode-remote.vscode-remote-extensionpack")
+
+$codespacesExts = @("ms-vsonline.vsonline")
 
 $containerExts = @(
     "redhat.vscode-yaml",
@@ -115,9 +112,7 @@ $devOpsExts = @(
     "ms-azure-devops.azure-pipelines",
     "ms-vsts.team")
 
-$gitExts = @(
-    "eamodio.gitlens",
-    "GitHub.vscode-pull-request-github")
+$gitExts = @("eamodio.gitlens")
 
 $teamExts = @(
     "ms-vsliveshare.vsliveshare-pack",
