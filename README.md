@@ -35,6 +35,7 @@ Below you will find a list of extensions with their respective marketplace links
 | Debugger for Edge         | <https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-edge>            |
 | Debugger for Chrome       | <https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome>          |
 | Debugger for Firefox      | <https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug> |
+| Better Comments           | <https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments>            |
 
 ## keybindings
 

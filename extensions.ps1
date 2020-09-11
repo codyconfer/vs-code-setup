@@ -17,7 +17,8 @@ $generalExts = @(
     "visualstudioexptteam.vscodeintellicode",
     "msjsdiag.debugger-for-edge",
     "msjsdiag.debugger-for-chrome",
-    "firefox-devtools.vscode-firefox-debug")
+    "firefox-devtools.vscode-firefox-debug",
+    "aaron-bond.better-comments")
 
 $keyBindingExts = @(
     "ms-vscode.vs-keybindings",
