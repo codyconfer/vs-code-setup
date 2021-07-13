@@ -196,14 +196,6 @@ Below you will find a list of extensions with their respective marketplace links
 | ------------------ | -------------------------------------------------------------------------------------------------- |
 | Remote Development | <https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack> |
 
-## codespace development
-
-> Extensions that support VS codespaces
-
-| Name                 | Marketplace Link                                                           |
-| -------------------- | -------------------------------------------------------------------------- |
-| Visual Studio Online | <https://marketplace.visualstudio.com/items?itemName=ms-vsonline.vsonline> |
-
 ## containers
 
 > Extensions that provides tooling for docker/kubernetes

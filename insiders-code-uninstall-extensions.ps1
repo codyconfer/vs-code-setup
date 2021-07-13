@@ -1,6 +1,7 @@
 . "./extensions.ps1"
 
-function Welcome {
+function Welcome
+{
     Param([string] $codeUser)
     Write-Host "********************************************************************************"
     Write-Host "* Visual Studio Code extension uninstaller                                     *"
@@ -9,7 +10,8 @@ function Welcome {
     Write-Host ""
 }
 
-function Spacer {
+function Spacer
+{
     Write-Host ""
     Write-Host "********************************************************************************"
     Write-Host ""
@@ -56,8 +58,6 @@ Write-Host "[CONTAINERS] - Uninstalling docker/kubernetes extensions..."
 Uninstall -exts $containerExts
 Write-Host "[REMOTE] - Uninstalling remote extensions..."
 Uninstall -exts $remoteExts
-Write-Host "[CODESPACE] - Uninstalling visual studio codespace extensions..."
-Uninstall -exts $codespaceExts
 Write-Host "[AZURE] - Uninstalling azure extensions..."
 Uninstall -exts $azureExts
 Write-Host "[DEVOPS] - Uninstalling azure devops extensions..."

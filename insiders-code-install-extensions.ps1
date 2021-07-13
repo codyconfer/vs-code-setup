@@ -67,12 +67,11 @@ $ps1Choice = Read-Host -Prompt "[POWERSHELL][13 of 21] - Install powershell exte
 $sqlChoice = Read-Host -Prompt "[SQL][14 of 21] - Install sql extensions? (y or n)"
 $iotChoice = Read-Host -Prompt "[IOT][15 of 21] - Install iot and arduino extensions? (y or n)"
 $containerChoice = Read-Host -Prompt "[Container][16 of 21] - Install kubernetes and docker extensions? (y or n)"
-$remoteChoice = Read-Host -Prompt "[REMOTE][17 of 22] - Install remote development? (y or n)"
-$codespaceChoice = Read-Host -Prompt "[CODESPACES][18 of 22] - Do you use visual studio codespaces? (y or n)"
-$azureChoice = Read-Host -Prompt "[AZURE][19 of 22] - Install azure extensions? (y or n)"
-$gitChoice = Read-Host -Prompt "[GIT][20 of 22] - Install git extensions? (y or n)"
-$devopsChoice = Read-Host -Prompt "[DEVOPS][21 of 22] - Install azure devops extensions? (y or n)"
-$teamChoice = Read-Host -Prompt "[TEAM][22 of 22] - Install team collaboration and chat extensions? (y or n)"
+$remoteChoice = Read-Host -Prompt "[REMOTE][17 of 21] - Install remote development? (y or n)"
+$azureChoice = Read-Host -Prompt "[AZURE][18 of 21] - Install azure extensions? (y or n)"
+$gitChoice = Read-Host -Prompt "[GIT][19 of 21] - Install git extensions? (y or n)"
+$devopsChoice = Read-Host -Prompt "[DEVOPS][20 of 21] - Install azure devops extensions? (y or n)"
+$teamChoice = Read-Host -Prompt "[TEAM][21 of 21] - Install team collaboration and chat extensions? (y or n)"
 
 Spacer
 
@@ -164,12 +163,6 @@ if ($remoteChoice.ToLower() -eq "y")
 { 
     Write-Host "[REMOTE] - Installing remote extensions..."
     Install -exts $remoteExts
-}
-
-if ($codespaceChoice.ToLower() -eq "y")
-{ 
-    Write-Host "[CODESPACE] - Installing visual studio codespace extensions..."
-    Install -exts $codespacesExts
 }
 
 if ($azureChoice.ToLower() -eq "y")

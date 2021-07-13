@@ -93,8 +93,6 @@ $iotExts = @(
 
 $remoteExts = @("ms-vscode-remote.vscode-remote-extensionpack")
 
-$codespacesExts = @("ms-vsonline.vsonline")
-
 $containerExts = @(
     "redhat.vscode-yaml",
     "ms-kubernetes-tools.vscode-kubernetes-tools",
